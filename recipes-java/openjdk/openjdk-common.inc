@@ -86,7 +86,7 @@ CONFIGUREOPTS ?= "\
     --with-devkit=${STAGING_DIR_NATIVE} \
     --with-extra-cflags="${TARGET_CC_ARCH} ${BUILD_CFLAGS} ${TARGET_CFLAGS}" \
     --with-extra-cxxflags="${TARGET_CC_ARCH} ${BUILD_CXXFLAGS} ${TARGET_CXXFLAGS} -fpermissive" \
-    --with-extra-ldflags="${BUILD_LDFLAGS} ${TARGET_LDFLAGS} -Wl,-rpath,${OPENJDK_INSTALL_BASE}/lib,-rpath,${OPENJDK_INSTALL_BASE}/lib/${JVM_VARIANT}" \
+    --with-extra-ldflags="${LDFLAGS} -Wl,-rpath,${OPENJDK_INSTALL_BASE}/lib,-rpath,${OPENJDK_INSTALL_BASE}/lib/${JVM_VARIANT}" \
     --with-giflib=system \
     --with-jobs=${OPENJDK_JOBS} \
     --with-jvm-variants=${JVM_VARIANT} \
@@ -119,22 +119,19 @@ do_install() {
     install -d ${D}${OPENJDK_INSTALL_BASE}
     install -d ${D}${bindir}
 
-    rsync -acIr \
+    rsync -acIr --no-perms --no-owner --no-group \
         ${S}/build/linux-*-release/images/${OPENJDK_VARIANT}/ \
         ${D}${OPENJDK_INSTALL_BASE}/
 
     cd ${D}${bindir}/
-    for i in "$(ls ../../${OPENJDK_INSTALL_BASE}/bin)"; do
-        ln -snf ../../${OPENJDK_INSTALL_BASE}/bin/"${i}";
-    done
-
+    ln -snf ../../${OPENJDK_INSTALL_BASE}/bin/* .
     rm -rf ${D}${OPENJDK_INSTALL_BASE}/{demo,jmods,include}
 }
 
 sysroot_stage_all:append() {
     install -d ${STAGING_DIR_HOST}/${includedir}/jvm
 
-    rsync -acIr \
+    rsync -acIr --no-perms --no-owner --no-group \
         ${S}/build/linux-*-release/jdk/include/ \
         ${STAGING_DIR_HOST}/${includedir}/jvm/
 }
