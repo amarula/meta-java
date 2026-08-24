@@ -5,10 +5,7 @@ Contributing via GitLab.com
 ---------------------------
 
 To contribute to this layer you may fork the repository and create a merge
-request at https://gitlab.com/meta-java/meta-java.
-
-Please refer to: https://docs.gitlab.com/ee/user/project/merge_requests/
-for more information on merge requests in GitLab.
+request at https://github.com/amarulasolutions/meta-java.
 
 Contributing via E-Mail
 -----------------------
@@ -43,8 +40,6 @@ When sending patches, please use something like:
 
     git send-email --to yocto-patches@lists.yoctoproject.org <generated patch(es)>
 
-Please add the main layer maintainers to CC:
+Please add the main layer maintainer to CC:
 
-  Henning Heinold <henning@itconsulting-heinold.de>
-  Otavio Salvador <otavio@ossystems.com.br>
-  Richard Leitner <richard.leitner@skidata.com>
+  Adam Duskett <adam.duskett@amarulasolutions.com>
