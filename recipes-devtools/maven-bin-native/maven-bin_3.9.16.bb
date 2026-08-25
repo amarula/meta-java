@@ -17,10 +17,7 @@ DEPENDS += "\
     openjdk-bin-native \
     rsync-native \
 "
-SRC_URI = "\
-    https://dlcdn.apache.org/maven/maven-3/${PV}/binaries/apache-maven-${PV}-bin.tar.gz \
-    file://settings.xml \
-"
+SRC_URI = "https://dlcdn.apache.org/maven/maven-3/${PV}/binaries/apache-maven-${PV}-bin.tar.gz"
 SRC_URI[sha256sum] = "80ffca22aed9e8b9713a232f3394fd81d7f20322df75efdb2b047dbd3e3a23bb"
 
 S = "${UNPACKDIR}/apache-maven-${PV}"
@@ -28,7 +25,6 @@ S = "${UNPACKDIR}/apache-maven-${PV}"
 do_install() {
     install -d ${D}${libdir}/maven
     rsync -acIr --no-perms --no-owner --no-group ${S}/ ${D}${libdir}/maven/
-    install -m 0755 "${UNPACKDIR}"/settings.xml ${D}${libdir}/maven/conf/settings.xml"{ }"
 }
 
 FILES:${PN} += "${libdir}/maven"

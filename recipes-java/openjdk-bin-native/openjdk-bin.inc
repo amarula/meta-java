@@ -4,6 +4,7 @@ DESCRIPTION = "\
     This package provides prebuilt OpenJDK binaries suitable for \
     the job. \
 "
+HOMEPAGE = "https://www.adoptium.net"
 BUGTRACKER = "https://github.com/adoptium/adoptium-support/issues"
 CVE_PRODUCT = "eclise:temurin"
 SECTION = "base"
@@ -15,6 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 LIC_FILES_CHKSUM = "\
     file://jdk-${PV}/legal/java.prefs/LICENSE;md5=3e0b59f8fac05c3c03d4a26bbda13f8f \
 "
+
+DEPENDS:append = " rsync-native"
 
 PV_MAJOR = "${@d.getVar('PV').split('.')[0]}"
 PV_TAG = "${@d.getVar('PV').replace('+', '%2B')}"
@@ -28,7 +31,8 @@ S = "${UNPACKDIR}"
 # to fix this issue is safe.
 do_install() {
     install -d ${D}${libdir}/jvm
-    cp -ra ${S}/jdk-${PV}/* ${D}${libdir}/jvm/
+    rsync -acIr --no-perms --no-owner --no-group \
+        ${S}/jdk-${PV}/ ${D}${libdir}/jvm/
 }
 
 FILES:${PN} += "${libdir}/jvm"
