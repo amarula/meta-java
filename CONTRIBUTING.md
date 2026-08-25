@@ -1,11 +1,11 @@
-meta-java contribution guidelines
+meta-openjdk contribution guidelines
 =================================
 
-Contributing via GitLab.com
+Contributing via github.com
 ---------------------------
 
 To contribute to this layer you may fork the repository and create a merge
-request at https://github.com/amarulasolutions/meta-java.
+request at https://github.com/amarula/meta-openjdk.
 
 Contributing via E-Mail
 -----------------------
@@ -24,17 +24,17 @@ Mailing list:
 
 Source code:
 
-    git://git.yoctoproject.org/meta-java
-    http://git.yoctoproject.org/git/meta-java
+    git://github.com:amarula/meta-openjdk.git
+    https://github.com/amarula/meta-openjdk
 
 When creating single patches, please use something like:
 
-    git format-patch -M -s --subject-prefix='meta-java][PATCH' -1
+    git format-patch -M -s --subject-prefix='meta-openjdk][PATCH' -1
 
 When creating a patch series, please add a cover letter describing it shortly.
 Therefore use something like:
 
-    git format-patch -M -s --cover-letter --subject-prefix='meta-java][PATCH' origin
+    git format-patch -M -s --cover-letter --subject-prefix='meta-openjdk][PATCH' origin
 
 When sending patches, please use something like:
 
