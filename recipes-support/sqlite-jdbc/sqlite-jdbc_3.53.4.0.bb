@@ -20,7 +20,7 @@ inherit jar maven maven_update_deps
 
 SRC_URI = "git://github.com/xerial/sqlite-jdbc;protocol=https;branch=master"
 SRCREV = "cab7981c19ce04d691f0675f0b2586afc2bbf803"
-require sqlite-jdbc-deps.inc
+require ${BPN}-deps.inc
 
 do_install() {
     oe_jarinstall ${S}/target/${BPN}-${PV}.jar ${BPN}.jar
