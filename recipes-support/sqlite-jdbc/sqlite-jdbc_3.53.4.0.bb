@@ -8,17 +8,18 @@ CVE_PRODUCT = "sqlite-jdbc"
 
 SECTION = "support"
 
-LICENSE = "Apache-2.0 AND BSD-2-Clause"
+LICENSE = "Apache-2.0 & BSD-2-Clause"
 LIC_FILES_CHKSUM = "\
     file://LICENSE;md5=d273d63619c9aeaf15cdaf76422c4f87 \
     file://LICENSE.zentus;md5=d393760bd738a58c439f0a8eb5305d1b \
 "
 
-inherit jar maven
-# inherit maven_update_deps
+S = "${WORKDIR}/git"
 
-SRC_URI = "git://github.com/xerial/sqlite-jdbc;protocol=https;branch=master;tag=${PV};"
-SRCREV = "94c0ea142dccd729c9a56833704743d74602e58c"
+inherit jar maven maven_update_deps
+
+SRC_URI = "git://github.com/xerial/sqlite-jdbc;protocol=https;branch=master"
+SRCREV = "cab7981c19ce04d691f0675f0b2586afc2bbf803"
 require sqlite-jdbc-deps.inc
 
 do_install() {

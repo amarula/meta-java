@@ -24,7 +24,7 @@ PV_TAG = "${@d.getVar('PV').replace('+', '%2B')}"
 OPENJDK_BIN_NAME = "OpenJDK${PV_MAJOR}U-jdk_x64_linux_hotspot_${@d.getVar('PV').replace('+', '_')}.tar.gz"
 SRC_URI = "https://github.com/adoptium/temurin${PV_MAJOR}-binaries/releases/download/jdk-${PV_TAG}/${OPENJDK_BIN_NAME}"
 
-S = "${UNPACKDIR}"
+S = "${WORKDIR}"
 
 # unpack200 has an invalid RPATH and relies on libzlib.
 # Because unpack200 is a deprecated tool, removing it

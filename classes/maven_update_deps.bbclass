@@ -1,5 +1,3 @@
-DEPENDS += "maven-bin-native openjdk-bin-native"
-
 MAVEN_REPO_URL ?= "https://repo1.maven.org/maven2"
 
 python do_update_maven_deps() {
@@ -78,5 +76,6 @@ python do_update_maven_deps() {
 addtask do_update_maven_deps after do_patch
 do_update_maven_deps[network] = "1"
 do_update_maven_deps[nostamp] = "1"
+do_update_maven_deps[depends] = "maven-bin-native:do_populate_sysroot openjdk-bin-native:do_populate_sysroot"
 do_update_maven_deps[doc] = "pre-download and create a deps.inc file. Much like cargo."
 RECIPE_UPGRADE_EXTRA_TASKS += "do_update_maven_deps"

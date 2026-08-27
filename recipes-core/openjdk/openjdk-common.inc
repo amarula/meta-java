@@ -55,7 +55,7 @@ DEPENDS:append = " \
     libpng-native \
     libusb \
     openjdk-bin-native \
-    pkgconf-native \
+    pkgconfig-native \
     rsync-native \
     unzip-native \
     zip-native \
@@ -66,7 +66,9 @@ DEPENDS:append = " \
 DEPENDS:append = " ${@bb.utils.contains('JVM_VARIANT', 'zero', 'libffi', '', d)}"
 
 PV_MAJOR = "${@d.getVar('PV').split('.')[0]}"
-SRC_URI = "git://github.com/openjdk/jdk${PV_MAJOR}u;protocol=https;branch=master;tag=jdk-${PV}"
+SRC_URI = "git://github.com/openjdk/jdk${PV_MAJOR}u;protocol=https;branch=master"
+
+S = "${WORKDIR}/git"
 
 PACKAGECONFIG[x11] = "--disable-headless-only, --enable-headless-only, libxrandr libxrender libxt libxtst"
 

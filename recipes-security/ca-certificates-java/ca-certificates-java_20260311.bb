@@ -20,11 +20,13 @@ DEPENDS = "openjdk-bin-native"
 PACKAGE_WRITE_DEPS += "openjdk-bin-native"
 
 SRC_URI = "\
-    git://salsa.debian.org/java-team/ca-certificates-java.git;protocol=https;branch=master;tag=debian/${PV};\
+    git://salsa.debian.org/java-team/ca-certificates-java.git;protocol=https;branch=master \
     file://0001-UpdateCertificates-handle-SYSROOT-environment-variab.patch \
     file://${BPN}.hook.in \
 "
 SRCREV = "7bb4be7f93cb20ba0d21f60effdcf6f6e106ce8d"
+
+S = "${WORKDIR}/git"
 
 inherit jar
 
@@ -56,7 +58,7 @@ do_install () {
     oe_jarinstall ${JARFILENAME}
 
     install -d ${D}${sysconfdir}/ssl/certs/java
-    install -Dm0755 ${UNPACKDIR}/${BPN}.hook.in ${D}${sysconfdir}/ca-certificates/update.d/${BPN}-hook
+    install -Dm0755 ${WORKDIR}/${BPN}.hook.in ${D}${sysconfdir}/ca-certificates/update.d/${BPN}-hook
     sed -e 's|@@datadir_java@@|${datadir_java}|' \
         -e 's|@@libdir_jvm@@|${libdir_jvm}|' \
         -e 's|@@JARFILENAME@@|${JARFILENAME}|' \
