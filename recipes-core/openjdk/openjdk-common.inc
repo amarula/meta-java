@@ -55,7 +55,7 @@ DEPENDS:append = " \
     libpng-native \
     libusb \
     openjdk-bin-native \
-    pkgconf-native \
+    pkgconfig-native \
     rsync-native \
     unzip-native \
     zip-native \

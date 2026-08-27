@@ -120,7 +120,6 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/io/github/openfeign/feign-jackson/13.13/feign-jackson-13.13.pom;name=io_github_openfeign_feign_jackson_13_13_feign_jackson_13_13_pom;downloadfilename=maven-repo/io/github/openfeign/feign-jackson/13.13/feign-jackson-13.13.pom \
     https://repo1.maven.org/maven2/io/github/openfeign/feign-jackson/13.13/feign-jackson-13.13.jar;name=io_github_openfeign_feign_jackson_13_13_feign_jackson_13_13_jar;downloadfilename=maven-repo/io/github/openfeign/feign-jackson/13.13/feign-jackson-13.13.jar \
     https://repo1.maven.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.pom;name=io_airlift_aircompressor_0_27_aircompressor_0_27_pom;downloadfilename=maven-repo/io/airlift/aircompressor/0.27/aircompressor-0.27.pom \
-    https://repo1.maven.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar;name=io_airlift_aircompressor_0_27_aircompressor_0_27_jar;downloadfilename=maven-repo/io/airlift/aircompressor/0.27/aircompressor-0.27.jar \
     https://repo1.maven.org/maven2/io/airlift/airbase/112/airbase-112.pom;name=io_airlift_airbase_112_airbase_112_pom;downloadfilename=maven-repo/io/airlift/airbase/112/airbase-112.pom \
     https://repo1.maven.org/maven2/com/googlecode/concurrent-trees/concurrent-trees/2.6.1/concurrent-trees-2.6.1.pom;name=com_googlecode_concurrent_trees_concurrent_trees_2_6_1_concurrent_trees_2_6_1_pom;downloadfilename=maven-repo/com/googlecode/concurrent-trees/concurrent-trees/2.6.1/concurrent-trees-2.6.1.pom \
     https://repo1.maven.org/maven2/com/googlecode/concurrent-trees/concurrent-trees/2.6.1/concurrent-trees-2.6.1.jar;name=com_googlecode_concurrent_trees_concurrent_trees_2_6_1_concurrent_trees_2_6_1_jar;downloadfilename=maven-repo/com/googlecode/concurrent-trees/concurrent-trees/2.6.1/concurrent-trees-2.6.1.jar \
@@ -149,10 +148,11 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-11/zstd-jni-1.5.7-11.jar;name=com_github_luben_zstd_jni_1_5_7_11_zstd_jni_1_5_7_11_jar;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.7-11/zstd-jni-1.5.7-11.jar \
     https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.pom;name=com_github_luben_zstd_jni_1_5_7_6_zstd_jni_1_5_7_6_pom;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.pom \
     https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.jar;name=com_github_luben_zstd_jni_1_5_7_6_zstd_jni_1_5_7_6_jar;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.jar \
-    https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-4/zstd-jni-1.5.7-4.pom;name=com_github_luben_zstd_jni_1_5_7_4_zstd_jni_1_5_7_4_pom;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.7-4/zstd-jni-1.5.7-4.pom \
     https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar;name=com_github_luben_zstd_jni_1_5_5_11_zstd_jni_1_5_5_11_jar;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar \
     https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom;name=com_github_luben_zstd_jni_1_5_5_11_zstd_jni_1_5_5_11_pom;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom \
     https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-5/zstd-jni-1.5.5-5.pom;name=com_github_luben_zstd_jni_1_5_5_5_zstd_jni_1_5_5_5_pom;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.5-5/zstd-jni-1.5.5-5.pom \
+    https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-9/zstd-jni-1.5.7-9.pom;name=com_github_luben_zstd_jni_1_5_7_9_zstd_jni_1_5_7_9_pom;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.7-9/zstd-jni-1.5.7-9.pom \
+    https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-9/zstd-jni-1.5.7-9.jar;name=com_github_luben_zstd_jni_1_5_7_9_zstd_jni_1_5_7_9_jar;downloadfilename=maven-repo/com/github/luben/zstd-jni/1.5.7-9/zstd-jni-1.5.7-9.jar \
     https://repo1.maven.org/maven2/com/github/victools/jsonschema-generator/4.38.0/jsonschema-generator-4.38.0.jar;name=com_github_victools_jsonschema_generator_4_38_0_jsonschema_generator_4_38_0_jar;downloadfilename=maven-repo/com/github/victools/jsonschema-generator/4.38.0/jsonschema-generator-4.38.0.jar \
     https://repo1.maven.org/maven2/com/github/victools/jsonschema-generator/4.38.0/jsonschema-generator-4.38.0.pom;name=com_github_victools_jsonschema_generator_4_38_0_jsonschema_generator_4_38_0_pom;downloadfilename=maven-repo/com/github/victools/jsonschema-generator/4.38.0/jsonschema-generator-4.38.0.pom \
     https://repo1.maven.org/maven2/com/github/victools/jsonschema-generator-bom/4.38.0/jsonschema-generator-bom-4.38.0.pom;name=com_github_victools_jsonschema_generator_bom_4_38_0_jsonschema_generator_bom_4_38_0_pom;downloadfilename=maven-repo/com/github/victools/jsonschema-generator-bom/4.38.0/jsonschema-generator-bom-4.38.0.pom \
@@ -323,16 +323,16 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.21/xstream-parent-1.4.21.pom;name=com_thoughtworks_xstream_xstream_parent_1_4_21_xstream_parent_1_4_21_pom;downloadfilename=maven-repo/com/thoughtworks/xstream/xstream-parent/1.4.21/xstream-parent-1.4.21.pom \
     https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.pom;name=com_thoughtworks_qdox_qdox_2_2_0_qdox_2_2_0_pom;downloadfilename=maven-repo/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.pom \
     https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar;name=com_thoughtworks_qdox_qdox_2_2_0_qdox_2_2_0_jar;downloadfilename=maven-repo/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine/1.4.2/archunit-junit5-engine-1.4.2.pom;name=com_tngtech_archunit_archunit_junit5_engine_1_4_2_archunit_junit5_engine_1_4_2_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine/1.4.2/archunit-junit5-engine-1.4.2.pom \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine/1.4.2/archunit-junit5-engine-1.4.2.jar;name=com_tngtech_archunit_archunit_junit5_engine_1_4_2_archunit_junit5_engine_1_4_2_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine/1.4.2/archunit-junit5-engine-1.4.2.jar \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-api/1.4.2/archunit-junit5-api-1.4.2.pom;name=com_tngtech_archunit_archunit_junit5_api_1_4_2_archunit_junit5_api_1_4_2_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-api/1.4.2/archunit-junit5-api-1.4.2.pom \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-api/1.4.2/archunit-junit5-api-1.4.2.jar;name=com_tngtech_archunit_archunit_junit5_api_1_4_2_archunit_junit5_api_1_4_2_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-api/1.4.2/archunit-junit5-api-1.4.2.jar \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit/1.4.2/archunit-1.4.2.jar;name=com_tngtech_archunit_archunit_1_4_2_archunit_1_4_2_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit/1.4.2/archunit-1.4.2.jar \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit/1.4.2/archunit-1.4.2.pom;name=com_tngtech_archunit_archunit_1_4_2_archunit_1_4_2_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit/1.4.2/archunit-1.4.2.pom \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine-api/1.4.2/archunit-junit5-engine-api-1.4.2.jar;name=com_tngtech_archunit_archunit_junit5_engine_api_1_4_2_archunit_junit5_engine_api_1_4_2_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine-api/1.4.2/archunit-junit5-engine-api-1.4.2.jar \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine-api/1.4.2/archunit-junit5-engine-api-1.4.2.pom;name=com_tngtech_archunit_archunit_junit5_engine_api_1_4_2_archunit_junit5_engine_api_1_4_2_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine-api/1.4.2/archunit-junit5-engine-api-1.4.2.pom \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5/1.4.2/archunit-junit5-1.4.2.pom;name=com_tngtech_archunit_archunit_junit5_1_4_2_archunit_junit5_1_4_2_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5/1.4.2/archunit-junit5-1.4.2.pom \
-    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5/1.4.2/archunit-junit5-1.4.2.jar;name=com_tngtech_archunit_archunit_junit5_1_4_2_archunit_junit5_1_4_2_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5/1.4.2/archunit-junit5-1.4.2.jar \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine/1.5.0/archunit-junit5-engine-1.5.0.jar;name=com_tngtech_archunit_archunit_junit5_engine_1_5_0_archunit_junit5_engine_1_5_0_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine/1.5.0/archunit-junit5-engine-1.5.0.jar \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine/1.5.0/archunit-junit5-engine-1.5.0.pom;name=com_tngtech_archunit_archunit_junit5_engine_1_5_0_archunit_junit5_engine_1_5_0_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine/1.5.0/archunit-junit5-engine-1.5.0.pom \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-api/1.5.0/archunit-junit5-api-1.5.0.jar;name=com_tngtech_archunit_archunit_junit5_api_1_5_0_archunit_junit5_api_1_5_0_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-api/1.5.0/archunit-junit5-api-1.5.0.jar \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-api/1.5.0/archunit-junit5-api-1.5.0.pom;name=com_tngtech_archunit_archunit_junit5_api_1_5_0_archunit_junit5_api_1_5_0_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-api/1.5.0/archunit-junit5-api-1.5.0.pom \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit/1.5.0/archunit-1.5.0.pom;name=com_tngtech_archunit_archunit_1_5_0_archunit_1_5_0_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit/1.5.0/archunit-1.5.0.pom \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit/1.5.0/archunit-1.5.0.jar;name=com_tngtech_archunit_archunit_1_5_0_archunit_1_5_0_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit/1.5.0/archunit-1.5.0.jar \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine-api/1.5.0/archunit-junit5-engine-api-1.5.0.jar;name=com_tngtech_archunit_archunit_junit5_engine_api_1_5_0_archunit_junit5_engine_api_1_5_0_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine-api/1.5.0/archunit-junit5-engine-api-1.5.0.jar \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5-engine-api/1.5.0/archunit-junit5-engine-api-1.5.0.pom;name=com_tngtech_archunit_archunit_junit5_engine_api_1_5_0_archunit_junit5_engine_api_1_5_0_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5-engine-api/1.5.0/archunit-junit5-engine-api-1.5.0.pom \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5/1.5.0/archunit-junit5-1.5.0.jar;name=com_tngtech_archunit_archunit_junit5_1_5_0_archunit_junit5_1_5_0_jar;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5/1.5.0/archunit-junit5-1.5.0.jar \
+    https://repo1.maven.org/maven2/com/tngtech/archunit/archunit-junit5/1.5.0/archunit-junit5-1.5.0.pom;name=com_tngtech_archunit_archunit_junit5_1_5_0_archunit_junit5_1_5_0_pom;downloadfilename=maven-repo/com/tngtech/archunit/archunit-junit5/1.5.0/archunit-junit5-1.5.0.pom \
     https://repo1.maven.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom;name=avalon_framework_avalon_framework_4_1_3_avalon_framework_4_1_3_pom;downloadfilename=maven-repo/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom \
     https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom;name=commons_logging_commons_logging_1_2_commons_logging_1_2_pom;downloadfilename=maven-repo/commons-logging/commons-logging/1.2/commons-logging-1.2.pom \
     https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;name=commons_logging_commons_logging_1_2_commons_logging_1_2_jar;downloadfilename=maven-repo/commons-logging/commons-logging/1.2/commons-logging-1.2.jar \
@@ -368,7 +368,7 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar;name=net_i2p_crypto_eddsa_0_3_0_eddsa_0_3_0_jar;downloadfilename=maven-repo/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar \
     https://repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.pom;name=net_i2p_crypto_eddsa_0_3_0_eddsa_0_3_0_pom;downloadfilename=maven-repo/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.pom \
     https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.pom;name=net_bytebuddy_byte_buddy_1_18_3_byte_buddy_1_18_3_pom;downloadfilename=maven-repo/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.pom \
-    https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar;name=net_bytebuddy_byte_buddy_1_18_3_byte_buddy_1_18_3_jar;downloadfilename=maven-repo/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar \
+    https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar;name=net_bytebuddy_byte_buddy_1_17_7_byte_buddy_1_17_7_jar;downloadfilename=maven-repo/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar \
     https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.pom;name=net_bytebuddy_byte_buddy_1_17_7_byte_buddy_1_17_7_pom;downloadfilename=maven-repo/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.pom \
     https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.pom;name=net_bytebuddy_byte_buddy_agent_1_17_7_byte_buddy_agent_1_17_7_pom;downloadfilename=maven-repo/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.pom \
     https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar;name=net_bytebuddy_byte_buddy_agent_1_17_7_byte_buddy_agent_1_17_7_jar;downloadfilename=maven-repo/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar \
@@ -429,7 +429,6 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/org/easymock/easymock/2.4/easymock-2.4.jar;name=org_easymock_easymock_2_4_easymock_2_4_jar;downloadfilename=maven-repo/org/easymock/easymock/2.4/easymock-2.4.jar \
     https://repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar;name=org_tukaani_xz_1_9_xz_1_9_jar;downloadfilename=maven-repo/org/tukaani/xz/1.9/xz-1.9.jar \
     https://repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.pom;name=org_tukaani_xz_1_9_xz_1_9_pom;downloadfilename=maven-repo/org/tukaani/xz/1.9/xz-1.9.pom \
-    https://repo1.maven.org/maven2/org/tukaani/xz/1.10/xz-1.10.jar;name=org_tukaani_xz_1_10_xz_1_10_jar;downloadfilename=maven-repo/org/tukaani/xz/1.10/xz-1.10.jar \
     https://repo1.maven.org/maven2/org/tukaani/xz/1.10/xz-1.10.pom;name=org_tukaani_xz_1_10_xz_1_10_pom;downloadfilename=maven-repo/org/tukaani/xz/1.10/xz-1.10.pom \
     https://repo1.maven.org/maven2/org/tukaani/xz/1.11/xz-1.11.jar;name=org_tukaani_xz_1_11_xz_1_11_jar;downloadfilename=maven-repo/org/tukaani/xz/1.11/xz-1.11.jar \
     https://repo1.maven.org/maven2/org/tukaani/xz/1.11/xz-1.11.pom;name=org_tukaani_xz_1_11_xz_1_11_pom;downloadfilename=maven-repo/org/tukaani/xz/1.11/xz-1.11.pom \
@@ -797,8 +796,8 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar;name=org_apache_maven_plugins_maven_clean_plugin_3_2_0_maven_clean_plugin_3_2_0_jar;downloadfilename=maven-repo/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar \
     https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar;name=org_apache_maven_plugins_maven_antrun_plugin_3_1_0_maven_antrun_plugin_3_1_0_jar;downloadfilename=maven-repo/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar \
     https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom;name=org_apache_maven_plugins_maven_antrun_plugin_3_1_0_maven_antrun_plugin_3_1_0_pom;downloadfilename=maven-repo/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom \
-    https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom;name=org_apache_maven_plugins_maven_jar_plugin_3_5_0_maven_jar_plugin_3_5_0_pom;downloadfilename=maven-repo/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom \
-    https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.jar;name=org_apache_maven_plugins_maven_jar_plugin_3_5_0_maven_jar_plugin_3_5_0_jar;downloadfilename=maven-repo/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.jar \
+    https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.1/maven-jar-plugin-3.5.1.jar;name=org_apache_maven_plugins_maven_jar_plugin_3_5_1_maven_jar_plugin_3_5_1_jar;downloadfilename=maven-repo/org/apache/maven/plugins/maven-jar-plugin/3.5.1/maven-jar-plugin-3.5.1.jar \
+    https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.1/maven-jar-plugin-3.5.1.pom;name=org_apache_maven_plugins_maven_jar_plugin_3_5_1_maven_jar_plugin_3_5_1_pom;downloadfilename=maven-repo/org/apache/maven/plugins/maven-jar-plugin/3.5.1/maven-jar-plugin-3.5.1.pom \
     https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar;name=org_apache_maven_plugins_maven_site_plugin_3_12_1_maven_site_plugin_3_12_1_jar;downloadfilename=maven-repo/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar \
     https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom;name=org_apache_maven_plugins_maven_site_plugin_3_12_1_maven_site_plugin_3_12_1_pom;downloadfilename=maven-repo/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom \
     https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/45/maven-plugins-45.pom;name=org_apache_maven_plugins_maven_plugins_45_maven_plugins_45_pom;downloadfilename=maven-repo/org/apache/maven/plugins/maven-plugins/45/maven-plugins-45.pom \
@@ -876,12 +875,12 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/org/apache/maven/scm/maven-scm-providers-git/2.0.0/maven-scm-providers-git-2.0.0.pom;name=org_apache_maven_scm_maven_scm_providers_git_2_0_0_maven_scm_providers_git_2_0_0_pom;downloadfilename=maven-repo/org/apache/maven/scm/maven-scm-providers-git/2.0.0/maven-scm-providers-git-2.0.0.pom \
     https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.5.2/maven-archiver-3.5.2.jar;name=org_apache_maven_maven_archiver_3_5_2_maven_archiver_3_5_2_jar;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.5.2/maven-archiver-3.5.2.jar \
     https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.5.2/maven-archiver-3.5.2.pom;name=org_apache_maven_maven_archiver_3_5_2_maven_archiver_3_5_2_pom;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.5.2/maven-archiver-3.5.2.pom \
-    https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.5/maven-archiver-3.6.5.jar;name=org_apache_maven_maven_archiver_3_6_5_maven_archiver_3_6_5_jar;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.5/maven-archiver-3.6.5.jar \
-    https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.5/maven-archiver-3.6.5.pom;name=org_apache_maven_maven_archiver_3_6_5_maven_archiver_3_6_5_pom;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.5/maven-archiver-3.6.5.pom \
     https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1.pom;name=org_apache_maven_maven_archiver_3_6_1_maven_archiver_3_6_1_pom;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1.pom \
     https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1.jar;name=org_apache_maven_maven_archiver_3_6_1_maven_archiver_3_6_1_jar;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1.jar \
     https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar;name=org_apache_maven_maven_archiver_3_6_2_maven_archiver_3_6_2_jar;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar \
     https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.pom;name=org_apache_maven_maven_archiver_3_6_2_maven_archiver_3_6_2_pom;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.pom \
+    https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.6/maven-archiver-3.6.6.pom;name=org_apache_maven_maven_archiver_3_6_6_maven_archiver_3_6_6_pom;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.6/maven-archiver-3.6.6.pom \
+    https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.6/maven-archiver-3.6.6.jar;name=org_apache_maven_maven_archiver_3_6_6_maven_archiver_3_6_6_jar;downloadfilename=maven-repo/org/apache/maven/maven-archiver/3.6.6/maven-archiver-3.6.6.jar \
     https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom;name=org_apache_maven_maven_artifact_2_2_1_maven_artifact_2_2_1_pom;downloadfilename=maven-repo/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom \
     https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.jar;name=org_apache_maven_maven_artifact_3_2_5_maven_artifact_3_2_5_jar;downloadfilename=maven-repo/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.jar \
     https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.pom;name=org_apache_maven_maven_artifact_3_2_5_maven_artifact_3_2_5_pom;downloadfilename=maven-repo/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.pom \
@@ -1176,7 +1175,6 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/20/plexus-20.pom;name=org_codehaus_plexus_plexus_20_plexus_20_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus/20/plexus-20.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/19/plexus-19.pom;name=org_codehaus_plexus_plexus_19_plexus_19_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus/19/plexus-19.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/6.5/plexus-6.5.pom;name=org_codehaus_plexus_plexus_6_5_plexus_6_5_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus/6.5/plexus-6.5.pom \
-    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/23/plexus-23.pom;name=org_codehaus_plexus_plexus_23_plexus_23_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus/23/plexus-23.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom;name=org_codehaus_plexus_plexus_1_0_9_plexus_1_0_9_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom;name=org_codehaus_plexus_plexus_8_plexus_8_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus/8/plexus-8.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom;name=org_codehaus_plexus_plexus_3_3_2_plexus_3_3_2_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom \
@@ -1207,8 +1205,6 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar;name=org_codehaus_plexus_plexus_interpolation_1_27_plexus_interpolation_1_27_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.pom;name=org_codehaus_plexus_plexus_interpolation_1_29_plexus_interpolation_1_29_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.jar;name=org_codehaus_plexus_plexus_interpolation_1_29_plexus_interpolation_1_29_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.jar \
-    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.28/plexus-interpolation-1.28.jar;name=org_codehaus_plexus_plexus_interpolation_1_28_plexus_interpolation_1_28_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-interpolation/1.28/plexus-interpolation-1.28.jar \
-    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.28/plexus-interpolation-1.28.pom;name=org_codehaus_plexus_plexus_interpolation_1_28_plexus_interpolation_1_28_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-interpolation/1.28/plexus-interpolation-1.28.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.pom;name=org_codehaus_plexus_plexus_sec_dispatcher_2_0_plexus_sec_dispatcher_2_0_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar;name=org_codehaus_plexus_plexus_sec_dispatcher_2_0_plexus_sec_dispatcher_2_0_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/6.5/plexus-components-6.5.pom;name=org_codehaus_plexus_plexus_components_6_5_plexus_components_6_5_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-components/6.5/plexus-components-6.5.pom \
@@ -1277,18 +1273,17 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar;name=org_codehaus_plexus_plexus_compiler_manager_2_16_2_plexus_compiler_manager_2_16_2_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.pom;name=org_codehaus_plexus_plexus_compiler_manager_2_16_2_plexus_compiler_manager_2_16_2_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.8.0/plexus-archiver-4.8.0.pom;name=org_codehaus_plexus_plexus_archiver_4_8_0_plexus_archiver_4_8_0_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.8.0/plexus-archiver-4.8.0.pom \
-    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.4/plexus-archiver-4.10.4.jar;name=org_codehaus_plexus_plexus_archiver_4_10_4_plexus_archiver_4_10_4_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.10.4/plexus-archiver-4.10.4.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.4/plexus-archiver-4.10.4.pom;name=org_codehaus_plexus_plexus_archiver_4_10_4_plexus_archiver_4_10_4_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.10.4/plexus-archiver-4.10.4.pom \
-    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.2/plexus-archiver-4.10.2.pom;name=org_codehaus_plexus_plexus_archiver_4_10_2_plexus_archiver_4_10_2_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.10.2/plexus-archiver-4.10.2.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar;name=org_codehaus_plexus_plexus_archiver_4_9_2_plexus_archiver_4_9_2_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom;name=org_codehaus_plexus_plexus_archiver_4_9_2_plexus_archiver_4_9_2_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7.jar;name=org_codehaus_plexus_plexus_archiver_4_2_7_plexus_archiver_4_2_7_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7.pom;name=org_codehaus_plexus_plexus_archiver_4_2_7_plexus_archiver_4_2_7_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.jar;name=org_codehaus_plexus_plexus_archiver_4_11_0_plexus_archiver_4_11_0_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.pom;name=org_codehaus_plexus_plexus_archiver_4_11_0_plexus_archiver_4_11_0_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.pom \
+    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.12.0/plexus-archiver-4.12.0.jar;name=org_codehaus_plexus_plexus_archiver_4_12_0_plexus_archiver_4_12_0_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.12.0/plexus-archiver-4.12.0.jar \
+    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.12.0/plexus-archiver-4.12.0.pom;name=org_codehaus_plexus_plexus_archiver_4_12_0_plexus_archiver_4_12_0_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-archiver/4.12.0/plexus-archiver-4.12.0.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar;name=org_codehaus_plexus_plexus_io_3_2_0_plexus_io_3_2_0_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.pom;name=org_codehaus_plexus_plexus_io_3_2_0_plexus_io_3_2_0_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.pom \
-    https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.pom;name=org_codehaus_plexus_plexus_io_3_5_1_plexus_io_3_5_1_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.pom;name=org_codehaus_plexus_plexus_io_3_4_1_plexus_io_3_4_1_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.pom \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.jar;name=org_codehaus_plexus_plexus_io_3_6_0_plexus_io_3_6_0_jar;downloadfilename=maven-repo/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.jar \
     https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.pom;name=org_codehaus_plexus_plexus_io_3_6_0_plexus_io_3_6_0_pom;downloadfilename=maven-repo/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.pom \
@@ -1366,10 +1361,10 @@ SRC_URI += "\
     https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom;name=org_objenesis_objenesis_parent_3_3_objenesis_parent_3_3_pom;downloadfilename=maven-repo/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom \
     https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar;name=org_objenesis_objenesis_3_3_objenesis_3_3_jar;downloadfilename=maven-repo/org/objenesis/objenesis/3.3/objenesis-3.3.jar \
     https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.pom;name=org_objenesis_objenesis_3_3_objenesis_3_3_pom;downloadfilename=maven-repo/org/objenesis/objenesis/3.3/objenesis-3.3.pom \
-    https://repo1.maven.org/maven2/org/graalvm/sdk/nativeimage/25.1.3/nativeimage-25.1.3.pom;name=org_graalvm_sdk_nativeimage_25_1_3_nativeimage_25_1_3_pom;downloadfilename=maven-repo/org/graalvm/sdk/nativeimage/25.1.3/nativeimage-25.1.3.pom \
-    https://repo1.maven.org/maven2/org/graalvm/sdk/nativeimage/25.1.3/nativeimage-25.1.3.jar;name=org_graalvm_sdk_nativeimage_25_1_3_nativeimage_25_1_3_jar;downloadfilename=maven-repo/org/graalvm/sdk/nativeimage/25.1.3/nativeimage-25.1.3.jar \
-    https://repo1.maven.org/maven2/org/graalvm/sdk/word/25.1.3/word-25.1.3.pom;name=org_graalvm_sdk_word_25_1_3_word_25_1_3_pom;downloadfilename=maven-repo/org/graalvm/sdk/word/25.1.3/word-25.1.3.pom \
-    https://repo1.maven.org/maven2/org/graalvm/sdk/word/25.1.3/word-25.1.3.jar;name=org_graalvm_sdk_word_25_1_3_word_25_1_3_jar;downloadfilename=maven-repo/org/graalvm/sdk/word/25.1.3/word-25.1.3.jar \
+    https://repo1.maven.org/maven2/org/graalvm/sdk/nativeimage/25.2.4/nativeimage-25.2.4.pom;name=org_graalvm_sdk_nativeimage_25_2_4_nativeimage_25_2_4_pom;downloadfilename=maven-repo/org/graalvm/sdk/nativeimage/25.2.4/nativeimage-25.2.4.pom \
+    https://repo1.maven.org/maven2/org/graalvm/sdk/nativeimage/25.2.4/nativeimage-25.2.4.jar;name=org_graalvm_sdk_nativeimage_25_2_4_nativeimage_25_2_4_jar;downloadfilename=maven-repo/org/graalvm/sdk/nativeimage/25.2.4/nativeimage-25.2.4.jar \
+    https://repo1.maven.org/maven2/org/graalvm/sdk/word/25.2.4/word-25.2.4.jar;name=org_graalvm_sdk_word_25_2_4_word_25_2_4_jar;downloadfilename=maven-repo/org/graalvm/sdk/word/25.2.4/word-25.2.4.jar \
+    https://repo1.maven.org/maven2/org/graalvm/sdk/word/25.2.4/word-25.2.4.pom;name=org_graalvm_sdk_word_25_2_4_word_25_2_4_pom;downloadfilename=maven-repo/org/graalvm/sdk/word/25.2.4/word-25.2.4.pom \
     https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/1.2.0/org.osgi.util.function-1.2.0.jar;name=org_osgi_org_osgi_util_function_1_2_0_org_osgi_util_function_1_2_0_jar;downloadfilename=maven-repo/org/osgi/org.osgi.util.function/1.2.0/org.osgi.util.function-1.2.0.jar \
     https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/1.2.0/org.osgi.util.function-1.2.0.pom;name=org_osgi_org_osgi_util_function_1_2_0_org_osgi_util_function_1_2_0_pom;downloadfilename=maven-repo/org/osgi/org.osgi.util.function/1.2.0/org.osgi.util.function-1.2.0.pom \
     https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/1.1.0/org.osgi.util.function-1.1.0.pom;name=org_osgi_org_osgi_util_function_1_1_0_org_osgi_util_function_1_1_0_pom;downloadfilename=maven-repo/org/osgi/org.osgi.util.function/1.1.0/org.osgi.util.function-1.1.0.pom \
@@ -1673,7 +1668,6 @@ SRC_URI[io_github_openfeign_form_feign_form_3_8_0_feign_form_3_8_0_jar.sha256sum
 SRC_URI[io_github_openfeign_feign_jackson_13_13_feign_jackson_13_13_pom.sha256sum] = "5ba445062ee191ce805cf9c9a9bf1f3655adf67c2e446bae1eaef8cf99e2dbaa"
 SRC_URI[io_github_openfeign_feign_jackson_13_13_feign_jackson_13_13_jar.sha256sum] = "319202e9e2b93659fc9c7ba7ec51bbc6e5aafb44595858325a4e584f02b940e5"
 SRC_URI[io_airlift_aircompressor_0_27_aircompressor_0_27_pom.sha256sum] = "5aacda89be38563bdf3bfac79333616c0802ca617070dea66ba649507c994441"
-SRC_URI[io_airlift_aircompressor_0_27_aircompressor_0_27_jar.sha256sum] = "fdbef3137a28f63bb0cb93487803080ede746a4ec3d421e36c6f0c305c35e5e4"
 SRC_URI[io_airlift_airbase_112_airbase_112_pom.sha256sum] = "18ccd104cbd97eb44bd57b68c047ab7ff81fbc800987f82d815c68ac4c2304ce"
 SRC_URI[com_googlecode_concurrent_trees_concurrent_trees_2_6_1_concurrent_trees_2_6_1_pom.sha256sum] = "43c2b9b142e7055d1f2a5827f10944925d22747d9756b3250c07aab47538a971"
 SRC_URI[com_googlecode_concurrent_trees_concurrent_trees_2_6_1_concurrent_trees_2_6_1_jar.sha256sum] = "04e3724984e2a5cbf55606cfa372a5bd3d3c5d2a21533a7004e3cde539761fa5"
@@ -1702,10 +1696,11 @@ SRC_URI[com_github_luben_zstd_jni_1_5_7_11_zstd_jni_1_5_7_11_pom.sha256sum] = "1
 SRC_URI[com_github_luben_zstd_jni_1_5_7_11_zstd_jni_1_5_7_11_jar.sha256sum] = "e45c18832293934924e4f2f1dd97ee2083a74def46caeeea1346cf817a37cea4"
 SRC_URI[com_github_luben_zstd_jni_1_5_7_6_zstd_jni_1_5_7_6_pom.sha256sum] = "794d9b995ed59165c54243dcc73fe9483d7fe1af7fb80fcd89a5ae5b693f3eb7"
 SRC_URI[com_github_luben_zstd_jni_1_5_7_6_zstd_jni_1_5_7_6_jar.sha256sum] = "8d6feb1da335f3ab13c584c613e23c7b3c61b392e37956872057baf8f0ca1d6f"
-SRC_URI[com_github_luben_zstd_jni_1_5_7_4_zstd_jni_1_5_7_4_pom.sha256sum] = "6d60134c7644852574cca4caa37573206b21ff21439fd3203c42785d071166b9"
 SRC_URI[com_github_luben_zstd_jni_1_5_5_11_zstd_jni_1_5_5_11_jar.sha256sum] = "d75b2ced6059f81ad23e021c554259b906b6c4f2991cb772409827569ead4c1a"
 SRC_URI[com_github_luben_zstd_jni_1_5_5_11_zstd_jni_1_5_5_11_pom.sha256sum] = "a0152b1897c4a6e7dd36e5f686f0e631c3839b5db208b38daa11a4f6dc9b25ff"
 SRC_URI[com_github_luben_zstd_jni_1_5_5_5_zstd_jni_1_5_5_5_pom.sha256sum] = "232c62cff322717d3d9355d278c65904b111f3d7eba038b15e115578208c2d0d"
+SRC_URI[com_github_luben_zstd_jni_1_5_7_9_zstd_jni_1_5_7_9_pom.sha256sum] = "4412e133520b8f9d01d3601080ce7fe146ee486f6a5a69ca9278d4a4ec69704d"
+SRC_URI[com_github_luben_zstd_jni_1_5_7_9_zstd_jni_1_5_7_9_jar.sha256sum] = "087d02f39a46ab79b18f883ac7c3a3d6c2df1fd3bf7eaafeade699e0743d0dbe"
 SRC_URI[com_github_victools_jsonschema_generator_4_38_0_jsonschema_generator_4_38_0_jar.sha256sum] = "ade4aeb301db4028ac6bcba016c31405677e37aae6eebaf13c99de3fdb3531b4"
 SRC_URI[com_github_victools_jsonschema_generator_4_38_0_jsonschema_generator_4_38_0_pom.sha256sum] = "7c64a139379fbfb79c87f6d079e3872409480c9b810c551476af9e4b5b14d0eb"
 SRC_URI[com_github_victools_jsonschema_generator_bom_4_38_0_jsonschema_generator_bom_4_38_0_pom.sha256sum] = "a88e0edc7e30b49de928fbc34d967a72d059861805549d136604e2d7c178562b"
@@ -1876,16 +1871,16 @@ SRC_URI[com_thoughtworks_xstream_xstream_1_4_21_xstream_1_4_21_pom.sha256sum] = 
 SRC_URI[com_thoughtworks_xstream_xstream_parent_1_4_21_xstream_parent_1_4_21_pom.sha256sum] = "00157e30fc1dcfe5e6543e88cb8763db6dca566e52589ced852bbf798dacdde6"
 SRC_URI[com_thoughtworks_qdox_qdox_2_2_0_qdox_2_2_0_pom.sha256sum] = "c850fbad0b05eada85ca1bce22409a75f758aea0ca1e47a828c6a505ad361fab"
 SRC_URI[com_thoughtworks_qdox_qdox_2_2_0_qdox_2_2_0_jar.sha256sum] = "c260c3230b2340af97d54bf01f7f67ebc57c901922736c881bb11cb981302be2"
-SRC_URI[com_tngtech_archunit_archunit_junit5_engine_1_4_2_archunit_junit5_engine_1_4_2_pom.sha256sum] = "bd3b3f8c45ceb786cb2d3537277e50880b23804bb1d0af5505e3a0c59284f785"
-SRC_URI[com_tngtech_archunit_archunit_junit5_engine_1_4_2_archunit_junit5_engine_1_4_2_jar.sha256sum] = "964f7d7042615ad8f7ac449d174285acfc2fbaaf5c706df7ede7837fb7ce2845"
-SRC_URI[com_tngtech_archunit_archunit_junit5_api_1_4_2_archunit_junit5_api_1_4_2_pom.sha256sum] = "c36d15fbc7c040eb197e8ce18c44f8778c5dec8ce852e5c02f495b2484eaed6d"
-SRC_URI[com_tngtech_archunit_archunit_junit5_api_1_4_2_archunit_junit5_api_1_4_2_jar.sha256sum] = "d51544cc48e1c9c805670da3876e28bb2b07e90984f5e493d15b061d11dbb71e"
-SRC_URI[com_tngtech_archunit_archunit_1_4_2_archunit_1_4_2_jar.sha256sum] = "6d8adf69a3f109ebe1b395764feb07f919e9e0e2ab5e2ea141d2e6251ba7d17f"
-SRC_URI[com_tngtech_archunit_archunit_1_4_2_archunit_1_4_2_pom.sha256sum] = "05618298545286d697fa6d066f65aebff7f68e8ec88cbf2c3e7d77ce18f26636"
-SRC_URI[com_tngtech_archunit_archunit_junit5_engine_api_1_4_2_archunit_junit5_engine_api_1_4_2_jar.sha256sum] = "7aba400db124132b142a387edd2a24e44efdc14b4ca3b2a918152c5770d169fd"
-SRC_URI[com_tngtech_archunit_archunit_junit5_engine_api_1_4_2_archunit_junit5_engine_api_1_4_2_pom.sha256sum] = "d20cd39a95947a2b0de6f54f96e636ab813791707bcb5b0fbc29ca2dabd77398"
-SRC_URI[com_tngtech_archunit_archunit_junit5_1_4_2_archunit_junit5_1_4_2_pom.sha256sum] = "22f92ddfb11dc1e3a252b351be33f88185afc389281ac15013964dd8f2ff4069"
-SRC_URI[com_tngtech_archunit_archunit_junit5_1_4_2_archunit_junit5_1_4_2_jar.sha256sum] = "cd2641df41c7059e21d4631c07c0ba284915a6186b867f4c0075d56be43c9e4c"
+SRC_URI[com_tngtech_archunit_archunit_junit5_engine_1_5_0_archunit_junit5_engine_1_5_0_jar.sha256sum] = "ef97d74a44be9fa39e8d9ed1d1a43c14cdc233277764e8d81cbb5774e4619d07"
+SRC_URI[com_tngtech_archunit_archunit_junit5_engine_1_5_0_archunit_junit5_engine_1_5_0_pom.sha256sum] = "99caa72ce276ae91ced9da4faf0e5d56282f796d3d4dcd13aeb6e4615631da39"
+SRC_URI[com_tngtech_archunit_archunit_junit5_api_1_5_0_archunit_junit5_api_1_5_0_jar.sha256sum] = "227f67019dc23977049842c5a2744b56275c803e66f449b334e38aa7f9bfd003"
+SRC_URI[com_tngtech_archunit_archunit_junit5_api_1_5_0_archunit_junit5_api_1_5_0_pom.sha256sum] = "e29e1e3870f0deae386e0b29f92d4e5e445327dd985f87325a011f25650f3395"
+SRC_URI[com_tngtech_archunit_archunit_1_5_0_archunit_1_5_0_pom.sha256sum] = "48435d27c0294b89bb882f8fd69523059a9fec65eb9bb015b042f3b696b15b80"
+SRC_URI[com_tngtech_archunit_archunit_1_5_0_archunit_1_5_0_jar.sha256sum] = "5ab139643fa5090af181ff8dc9eab48cb38ca306d3e03e66acacc75831a08fe9"
+SRC_URI[com_tngtech_archunit_archunit_junit5_engine_api_1_5_0_archunit_junit5_engine_api_1_5_0_jar.sha256sum] = "d211aa07c8d123c8c581ee342581edf5caf11004268c7abd254f381a9bcdbc5d"
+SRC_URI[com_tngtech_archunit_archunit_junit5_engine_api_1_5_0_archunit_junit5_engine_api_1_5_0_pom.sha256sum] = "ca7edb98e5603fb8a58871aadc1e935daf4c8e37fc13b150fd629ef85678df52"
+SRC_URI[com_tngtech_archunit_archunit_junit5_1_5_0_archunit_junit5_1_5_0_jar.sha256sum] = "648e3a8043d4de694f802ad456d503f61091c1b00f9460ff70268f9c1d8c6876"
+SRC_URI[com_tngtech_archunit_archunit_junit5_1_5_0_archunit_junit5_1_5_0_pom.sha256sum] = "9d32378fa69c4e56904e4080896c0e93ea11c6f86a8a16966a09785a7ed63a1e"
 SRC_URI[avalon_framework_avalon_framework_4_1_3_avalon_framework_4_1_3_pom.sha256sum] = "c6c971b146ec8e596e660e64d5517aae02e34c3cce240de44bb92ccd98f046bf"
 SRC_URI[commons_logging_commons_logging_1_2_commons_logging_1_2_pom.sha256sum] = "c91ab5aa570d86f6fd07cc158ec6bc2c50080402972ee9179fe24100739fbb20"
 SRC_URI[commons_logging_commons_logging_1_2_commons_logging_1_2_jar.sha256sum] = "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
@@ -1921,7 +1916,7 @@ SRC_URI[eu_maveniverse_maven_parent_parent_52_parent_52_pom.sha256sum] = "ec0c26
 SRC_URI[net_i2p_crypto_eddsa_0_3_0_eddsa_0_3_0_jar.sha256sum] = "4dda1120db856640dbec04140ed23242215a075fe127bdefa0dcfa29fb31267d"
 SRC_URI[net_i2p_crypto_eddsa_0_3_0_eddsa_0_3_0_pom.sha256sum] = "b6b13878e4bae8b768d7ea5732cb4d66ab2f5e9fe707c0a1a776cde9de52051b"
 SRC_URI[net_bytebuddy_byte_buddy_1_18_3_byte_buddy_1_18_3_pom.sha256sum] = "7157b622a0d6885cb5526a10f1220ddf090dbb52ca2fe38c32cc69c4f1530788"
-SRC_URI[net_bytebuddy_byte_buddy_1_18_3_byte_buddy_1_18_3_jar.sha256sum] = "d78396e3c5bce3f2865c9186647481e5589d34cacc632484715b686108d17c66"
+SRC_URI[net_bytebuddy_byte_buddy_1_17_7_byte_buddy_1_17_7_jar.sha256sum] = "3575dcb8a98faf943d3c1595c47a16047c4fce8a83ebbb26262f1a2f67546357"
 SRC_URI[net_bytebuddy_byte_buddy_1_17_7_byte_buddy_1_17_7_pom.sha256sum] = "ee7fba8569c3bb5c1e91e5812fd9f4a0f31be27e568d5354e1adfd19119f97b3"
 SRC_URI[net_bytebuddy_byte_buddy_agent_1_17_7_byte_buddy_agent_1_17_7_pom.sha256sum] = "814ee42d6b0117f4b8d1eb6b1d62c16db4c0b597d83b3ad8daa5781eb145d7dc"
 SRC_URI[net_bytebuddy_byte_buddy_agent_1_17_7_byte_buddy_agent_1_17_7_jar.sha256sum] = "a9ba887dca252ad61b7d5153294f34e6f3bdf4b2736b04373d13615a695fc0ff"
@@ -1982,7 +1977,6 @@ SRC_URI[org_easymock_easymock_2_4_easymock_2_4_pom.sha256sum] = "fd42020cbe60910
 SRC_URI[org_easymock_easymock_2_4_easymock_2_4_jar.sha256sum] = "7c48d8ba6e070409f65a45afc4904824b7702598ab0bec273cdd0ce6f4c2c64f"
 SRC_URI[org_tukaani_xz_1_9_xz_1_9_jar.sha256sum] = "211b306cfc44f8f96df3a0a3ddaf75ba8c5289eed77d60d72f889bb855f535e5"
 SRC_URI[org_tukaani_xz_1_9_xz_1_9_pom.sha256sum] = "093be1b03331bce2932d6825c37e98272d7621e6a9e9fb93289a002518b8dd5a"
-SRC_URI[org_tukaani_xz_1_10_xz_1_10_jar.sha256sum] = "95c63c1a55b22dd6453890a419cc1a640f790bbf7d8ae82db1e30aefefb08888"
 SRC_URI[org_tukaani_xz_1_10_xz_1_10_pom.sha256sum] = "ef608b83c3bb6c8e3e6b3beaa38842ba15963b46495e4af91b0746c8b750f3b9"
 SRC_URI[org_tukaani_xz_1_11_xz_1_11_jar.sha256sum] = "0a4077f6aeae2865532a564807af8d30c26acc6f63b7928d93bd7ab1f2190449"
 SRC_URI[org_tukaani_xz_1_11_xz_1_11_pom.sha256sum] = "7bd2fe2f145c8479824757ab76130c0815a7b55850714ef0c28b39bd5d692ca4"
@@ -2350,8 +2344,8 @@ SRC_URI[org_apache_maven_plugins_maven_clean_plugin_3_2_0_maven_clean_plugin_3_2
 SRC_URI[org_apache_maven_plugins_maven_clean_plugin_3_2_0_maven_clean_plugin_3_2_0_jar.sha256sum] = "b657bef2e1eb11e029a70cd688bde6adad29e4e99dacb18516bf651ecca32435"
 SRC_URI[org_apache_maven_plugins_maven_antrun_plugin_3_1_0_maven_antrun_plugin_3_1_0_jar.sha256sum] = "8ae8f570b8f4ea46fa7f3df27f22ce4c6b6c1f387a6eaeefae6c896aebae1455"
 SRC_URI[org_apache_maven_plugins_maven_antrun_plugin_3_1_0_maven_antrun_plugin_3_1_0_pom.sha256sum] = "978469f5d7558b1a82f596bdd6984e3137a3c0fc1c7af76f1a62824307dfb14e"
-SRC_URI[org_apache_maven_plugins_maven_jar_plugin_3_5_0_maven_jar_plugin_3_5_0_pom.sha256sum] = "571d9446537993c3a7226cecb3169ee3df75710bcae8daeefb0d80768ec35917"
-SRC_URI[org_apache_maven_plugins_maven_jar_plugin_3_5_0_maven_jar_plugin_3_5_0_jar.sha256sum] = "7562657fc3492649dee836ffdda07990aaf46f4133cad048c4dcd7330bfd3917"
+SRC_URI[org_apache_maven_plugins_maven_jar_plugin_3_5_1_maven_jar_plugin_3_5_1_jar.sha256sum] = "c83db6059be3fec9a4a68a0e226caefaa944663008617c697e087444415181d5"
+SRC_URI[org_apache_maven_plugins_maven_jar_plugin_3_5_1_maven_jar_plugin_3_5_1_pom.sha256sum] = "32de38ee39a6985e777019a6364774c02781ee312f9f4e530bbdb45b875b1e38"
 SRC_URI[org_apache_maven_plugins_maven_site_plugin_3_12_1_maven_site_plugin_3_12_1_jar.sha256sum] = "f7bd8e943977ca85022e1252d52575b769d12d49565375550251d2f471aa350c"
 SRC_URI[org_apache_maven_plugins_maven_site_plugin_3_12_1_maven_site_plugin_3_12_1_pom.sha256sum] = "6ca9fd4c6bb967bdb44ba03b3de42a79f81ea71dd13404d08fd7a72e3f5d1219"
 SRC_URI[org_apache_maven_plugins_maven_plugins_45_maven_plugins_45_pom.sha256sum] = "c0f58b12039f152641e3e53a07acc12887012ef149fac83065a9785aac51de0e"
@@ -2429,12 +2423,12 @@ SRC_URI[org_apache_maven_scm_maven_scm_provider_svn_commons_2_0_0_maven_scm_prov
 SRC_URI[org_apache_maven_scm_maven_scm_providers_git_2_0_0_maven_scm_providers_git_2_0_0_pom.sha256sum] = "164a36a85399f7d3c58e705c62f07a90f2cceb6f3b3eba5e81ca1c29759d28ab"
 SRC_URI[org_apache_maven_maven_archiver_3_5_2_maven_archiver_3_5_2_jar.sha256sum] = "8d0a075ba6662041287b6807a8ea14b66b5e1b7da7db96ea322849672c536ca2"
 SRC_URI[org_apache_maven_maven_archiver_3_5_2_maven_archiver_3_5_2_pom.sha256sum] = "437e59037792c8c7300666f720b2fc44e069e3161b8f1a331e1c755ef6f6965e"
-SRC_URI[org_apache_maven_maven_archiver_3_6_5_maven_archiver_3_6_5_jar.sha256sum] = "cea5dd2b7c6be818fa8d6b73cff4edacaecefec5842d361a791b7f47974fe156"
-SRC_URI[org_apache_maven_maven_archiver_3_6_5_maven_archiver_3_6_5_pom.sha256sum] = "87b2c403256b17c3903a3ba35320ac32a79b3838b62ab9eda010a0976ca49ba3"
 SRC_URI[org_apache_maven_maven_archiver_3_6_1_maven_archiver_3_6_1_pom.sha256sum] = "37c159530afde78680a38f15c18306cfa3750d0a05f1162c34ee980f0efcad87"
 SRC_URI[org_apache_maven_maven_archiver_3_6_1_maven_archiver_3_6_1_jar.sha256sum] = "a5fd6e2121c0a3f5e5cafdf336e21ba2e67a2cf7e781f69e3b8ae28215832823"
 SRC_URI[org_apache_maven_maven_archiver_3_6_2_maven_archiver_3_6_2_jar.sha256sum] = "1f895a587df4844d9b7565e8e9a6352afe1d55532458a0dbeb746bc1d02e9216"
 SRC_URI[org_apache_maven_maven_archiver_3_6_2_maven_archiver_3_6_2_pom.sha256sum] = "8b117b0dc205a71abda33463f8c7ff891513cfb92241d8a011f9e8ac5ea21e77"
+SRC_URI[org_apache_maven_maven_archiver_3_6_6_maven_archiver_3_6_6_pom.sha256sum] = "4232a2477bcaacca4cb1b67af032d8683fc6a61aebd96a61a901ebc7e7e391e1"
+SRC_URI[org_apache_maven_maven_archiver_3_6_6_maven_archiver_3_6_6_jar.sha256sum] = "9037dee318a68d7ee5dd2e20f2e657a39597ed2622b52e325ab9becddfbc4d38"
 SRC_URI[org_apache_maven_maven_artifact_2_2_1_maven_artifact_2_2_1_pom.sha256sum] = "f658a628efd6e0efe416b977638ba144af660fe6413f3637a4d03feb6a1ce806"
 SRC_URI[org_apache_maven_maven_artifact_3_2_5_maven_artifact_3_2_5_jar.sha256sum] = "270385907ecfbcb256fe5afb883869fd57a5c021b5242693743ef787605c6335"
 SRC_URI[org_apache_maven_maven_artifact_3_2_5_maven_artifact_3_2_5_pom.sha256sum] = "4e7f1161d5e955492198699b47a413ae1059e9ba187de2970a75aa655a8cfd21"
@@ -2729,7 +2723,6 @@ SRC_URI[org_codehaus_plexus_plexus_25_plexus_25_pom.sha256sum] = "faa7947c202096
 SRC_URI[org_codehaus_plexus_plexus_20_plexus_20_pom.sha256sum] = "a7b594b002fc791733c8e94470d09045f4fd69a93ad5c375752f2057f84633b4"
 SRC_URI[org_codehaus_plexus_plexus_19_plexus_19_pom.sha256sum] = "8d3e51c3902fd7596e548eab121ebf6b0d4aa73857077f26a24fc86f9b8455b4"
 SRC_URI[org_codehaus_plexus_plexus_6_5_plexus_6_5_pom.sha256sum] = "737ff2200498dd54c920712404caa4426d38639d05014ff3ef1b3e7c5bd91397"
-SRC_URI[org_codehaus_plexus_plexus_23_plexus_23_pom.sha256sum] = "7728c57471730a6ec9e04654b60f37f57c01a2708e53aa6a0d7005aad29cbb10"
 SRC_URI[org_codehaus_plexus_plexus_1_0_9_plexus_1_0_9_pom.sha256sum] = "11a987607957fcac04d6ac182308abf5a7d3707f519863e55c8eb419953f5374"
 SRC_URI[org_codehaus_plexus_plexus_8_plexus_8_pom.sha256sum] = "ffa349db04e7abf65885bdc5a2062f4197c0ff9d3f1f4e2aa5720b77233f742c"
 SRC_URI[org_codehaus_plexus_plexus_3_3_2_plexus_3_3_2_pom.sha256sum] = "2fd3853acd7d8b548ab59507f1a5a06897efdc0c4f05acb7c2a49bc78ad83eff"
@@ -2760,8 +2753,6 @@ SRC_URI[org_codehaus_plexus_plexus_interpolation_1_27_plexus_interpolation_1_27_
 SRC_URI[org_codehaus_plexus_plexus_interpolation_1_27_plexus_interpolation_1_27_jar.sha256sum] = "3fb4fb6143fdf964024c3cb738551524b9ea84e5c211cd660c559ad0703e5230"
 SRC_URI[org_codehaus_plexus_plexus_interpolation_1_29_plexus_interpolation_1_29_pom.sha256sum] = "ce0d5634297bb1e065dddfdc8a2a5675717c08e8f4783edcf581543711516938"
 SRC_URI[org_codehaus_plexus_plexus_interpolation_1_29_plexus_interpolation_1_29_jar.sha256sum] = "088d444dbcedfb384630d8686697ece3c401d6f33c8f8b3aa7259ea1c6996878"
-SRC_URI[org_codehaus_plexus_plexus_interpolation_1_28_plexus_interpolation_1_28_jar.sha256sum] = "ab2a8715570438a2e4164d85ad3e8d489eabc38ea5093c2eb8ab7f58403535b5"
-SRC_URI[org_codehaus_plexus_plexus_interpolation_1_28_plexus_interpolation_1_28_pom.sha256sum] = "0f4665c943df2692d75e28b6b24923ab18ff00369b8c7f5eba4bedef07e4ecd4"
 SRC_URI[org_codehaus_plexus_plexus_sec_dispatcher_2_0_plexus_sec_dispatcher_2_0_pom.sha256sum] = "9b28bb307017938a94d06c85b2b099bc46912b859d084fb293e569f432eadb7c"
 SRC_URI[org_codehaus_plexus_plexus_sec_dispatcher_2_0_plexus_sec_dispatcher_2_0_jar.sha256sum] = "873139960c4c780176dda580b003a2c4bf82188bdce5bb99234e224ef7acfceb"
 SRC_URI[org_codehaus_plexus_plexus_components_6_5_plexus_components_6_5_pom.sha256sum] = "c616f9be007c09888f66985b6dc982087220efbb930e7957edcba4f875429430"
@@ -2830,18 +2821,17 @@ SRC_URI[org_codehaus_plexus_plexus_i18n_1_0_beta_10_plexus_i18n_1_0_beta_10_jar.
 SRC_URI[org_codehaus_plexus_plexus_compiler_manager_2_16_2_plexus_compiler_manager_2_16_2_jar.sha256sum] = "99630ac196571a2754baa143a12723795b13020631902a6dff18dfb997e59b0e"
 SRC_URI[org_codehaus_plexus_plexus_compiler_manager_2_16_2_plexus_compiler_manager_2_16_2_pom.sha256sum] = "ba8d233dd73fc97c10f84bf23ef8f632cd19ced0f85dc335be2bdcb8e28e7bd0"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_8_0_plexus_archiver_4_8_0_pom.sha256sum] = "a76eb8d9750adb54408f7186460593ec8068bb9f7ded97634a8c5af296d5a28d"
-SRC_URI[org_codehaus_plexus_plexus_archiver_4_10_4_plexus_archiver_4_10_4_jar.sha256sum] = "1f39d4f2906a04f501567cd1211cef3fd95fea4cb979e1eba1d8dd84e4b67098"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_10_4_plexus_archiver_4_10_4_pom.sha256sum] = "53a2103d9257c801a8fc9c211d9fedea7e3ee1bf516bbbc28021ef45c1a219c5"
-SRC_URI[org_codehaus_plexus_plexus_archiver_4_10_2_plexus_archiver_4_10_2_pom.sha256sum] = "0ce7e5f325bb2153febdc5e599e5aabda28bbfb902245ac87951a13b44fce8ac"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_9_2_plexus_archiver_4_9_2_jar.sha256sum] = "a837bd7d73291564dc8e8c826de0fede75896527a35bdcddb77b0545ee656a4c"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_9_2_plexus_archiver_4_9_2_pom.sha256sum] = "7b4a569c92f60c859ae69594f8935d11bcbb940d86c518742c30f0925a48ba9f"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_2_7_plexus_archiver_4_2_7_jar.sha256sum] = "5e0c49de4c56a25aa242e2de2b5fea1c0368826c2a8ab73764a0c91d3631633b"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_2_7_plexus_archiver_4_2_7_pom.sha256sum] = "2f8d25a75154d59d3469484320e254f5cc863b8255e470c1a1eb8898ff5ae821"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_11_0_plexus_archiver_4_11_0_jar.sha256sum] = "d24c3ca2185009d81b1ce3ee90cff1cfeab53b70fadbb3ae0c02a867d7c96034"
 SRC_URI[org_codehaus_plexus_plexus_archiver_4_11_0_plexus_archiver_4_11_0_pom.sha256sum] = "22a5a7c25e445560604cb0e1e5cc3d3af2669a0549c3d7db8265dcf8d8ebb4e3"
+SRC_URI[org_codehaus_plexus_plexus_archiver_4_12_0_plexus_archiver_4_12_0_jar.sha256sum] = "b1e9798a6d711d1e7760d50c78be8be746bb546b87df0a2d7ef67db5eda5431e"
+SRC_URI[org_codehaus_plexus_plexus_archiver_4_12_0_plexus_archiver_4_12_0_pom.sha256sum] = "4b3b26c438d0b41d5a0613787115ea4013adeae1478314535976b2b3a65fc2f8"
 SRC_URI[org_codehaus_plexus_plexus_io_3_2_0_plexus_io_3_2_0_jar.sha256sum] = "15cf8cbd9e014b7156482bbb48e515613158bdd9b4b908d21e6b900f7876f6ff"
 SRC_URI[org_codehaus_plexus_plexus_io_3_2_0_plexus_io_3_2_0_pom.sha256sum] = "726b07803e7aea9e03cc1da166b7c5d90d681b5b0c292f57a93cf5b07eaf7f80"
-SRC_URI[org_codehaus_plexus_plexus_io_3_5_1_plexus_io_3_5_1_pom.sha256sum] = "f7a76d3a3bbeb53f5f36e19ee57ddc2099f3be1d599039090254d1f0fdf0b854"
 SRC_URI[org_codehaus_plexus_plexus_io_3_4_1_plexus_io_3_4_1_pom.sha256sum] = "7cd6047a0beec84b4d0d4c1a8ff4c9adb10c3f18e4fe18622f6ee7d4592b9a87"
 SRC_URI[org_codehaus_plexus_plexus_io_3_6_0_plexus_io_3_6_0_jar.sha256sum] = "fc0f3effea7514e4f214df1afb672f54c982e78e5ca3b32b34196c7d056a1aa4"
 SRC_URI[org_codehaus_plexus_plexus_io_3_6_0_plexus_io_3_6_0_pom.sha256sum] = "653432ed213573b6b209deb7346dc2ed89f20e647dbdb6fc868051b334b31d27"
@@ -2919,10 +2909,10 @@ SRC_URI[org_jboss_jboss_parent_36_jboss_parent_36_pom.sha256sum] = "000dd616298a
 SRC_URI[org_objenesis_objenesis_parent_3_3_objenesis_parent_3_3_pom.sha256sum] = "305c384aa2f1e1c7fe53a96da41c3ec35243b97d428d24a8f779818cc10be4ff"
 SRC_URI[org_objenesis_objenesis_3_3_objenesis_3_3_jar.sha256sum] = "02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb"
 SRC_URI[org_objenesis_objenesis_3_3_objenesis_3_3_pom.sha256sum] = "ba0c40da2669a048b6e24ef7066a471f0fbcbfcc509e6a3e856ca4ddfa614ad3"
-SRC_URI[org_graalvm_sdk_nativeimage_25_1_3_nativeimage_25_1_3_pom.sha256sum] = "7ac42f05c1e379416609ef1cf5dda24073d6497a13f148dd3476d2fa2b457675"
-SRC_URI[org_graalvm_sdk_nativeimage_25_1_3_nativeimage_25_1_3_jar.sha256sum] = "dc0516fb3007c33ebf0b7c8b654c4a5a8230e974c4b5f98bc67cbbfac725c40a"
-SRC_URI[org_graalvm_sdk_word_25_1_3_word_25_1_3_pom.sha256sum] = "c8b12f1766602a44434007feb4141109ba78c1bd481f941803f7a82339eabc3b"
-SRC_URI[org_graalvm_sdk_word_25_1_3_word_25_1_3_jar.sha256sum] = "5b4aa7d7ef8d79cc22afaeab7396be832253140dd7758ff0a2ee0de853a6d57a"
+SRC_URI[org_graalvm_sdk_nativeimage_25_2_4_nativeimage_25_2_4_pom.sha256sum] = "3b289bd4d7fadb1fc78b4b4e9626e7efe981d1576b7725b3acbbbbb02175c8f6"
+SRC_URI[org_graalvm_sdk_nativeimage_25_2_4_nativeimage_25_2_4_jar.sha256sum] = "235376a14f41d503219e8e81cc3cade7dd45565917bb5c6936768519adc07fe1"
+SRC_URI[org_graalvm_sdk_word_25_2_4_word_25_2_4_jar.sha256sum] = "fd64d18afd9813346acf3c2be3a19cc553edb3c480c3683fda80fe324687bd6a"
+SRC_URI[org_graalvm_sdk_word_25_2_4_word_25_2_4_pom.sha256sum] = "94469bb4677a1424ad080fa2ae28ef22aec4e599338ae8ec8c3d5bb6817c0b8e"
 SRC_URI[org_osgi_org_osgi_util_function_1_2_0_org_osgi_util_function_1_2_0_jar.sha256sum] = "208819c7c71690c15a6bb8b187474e7f9d0147946b680182a62b9f222ae014ec"
 SRC_URI[org_osgi_org_osgi_util_function_1_2_0_org_osgi_util_function_1_2_0_pom.sha256sum] = "f4edd84181157d436818d46565d480379c1b07001d5cb130b406719729115ea8"
 SRC_URI[org_osgi_org_osgi_util_function_1_1_0_org_osgi_util_function_1_1_0_pom.sha256sum] = "3d14d9a0aa17264fefa0c24d22640af0f7fc47e0f56142178e225cee253e026c"
