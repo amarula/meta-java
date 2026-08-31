@@ -1,40 +1,49 @@
-MAVEN_REPO_URL ?= "https://repo1.maven.org/maven2"
-
-python do_update_maven_deps() {
-    import os
+python do_maven_update_deps() {
     import hashlib
+    import os
+    import re
     import subprocess
-    import sys
+    import uuid
+    import bb.msg
+
+    log_level = bb.msg.loggerDefaultLogLevel
 
     staging_dir_native = d.getVar("STAGING_DIR_NATIVE")
-    dl_dir = d.getVar("DL_DIR")
     libdir = d.getVar("libdir")
+    tmp_buf = {}
 
-    JAVA_HOME = f"{staging_dir_native}/{libdir}/jvm"
-    M2_HOME = f"{staging_dir_native}/{libdir}/maven"
-    MAVEN_HOME = f"{staging_dir_native}/{libdir}/maven"
-    MAVEN_REPO_DIR = f"{dl_dir}/maven-repo"
-    mvn = f"{staging_dir_native}/usr/lib/maven/bin/mvn"
+    temp_m2 = os.path.join(d.getVar("WORKDIR"), "temp-m2-repo")
+    inc_filename = os.path.join(d.getVar("THISDIR"), f"{d.getVar("BPN")}-deps.inc")
 
-    s_dir = d.getVar("S")
-    bpn = d.getVar("BPN")
-    workdir = d.getVar("WORKDIR")
-    temp_m2 = os.path.join(workdir, "temp-m2-repo")
-    inc_filename = os.path.join(d.getVar("THISDIR"), f"{bpn}-deps.inc")
-    repo_url = d.getVar("MAVEN_REPO_URL").rstrip('/')
-
-    os.environ["JAVA_HOME"] = JAVA_HOME
-    os.environ["M2_HOME"] = M2_HOME
-    os.environ["MAVEN_HOME"] = MAVEN_HOME
-    os.environ["MAVEN_REPO_DIR"] = MAVEN_REPO_DIR
+    os.environ["JAVA_HOME"] = f"{staging_dir_native}/{libdir}/jvm"
+    os.environ["M2_HOME"] = f"{staging_dir_native}/{libdir}/maven"
+    os.environ["MAVEN_HOME"] = f"{staging_dir_native}/{libdir}/maven"
+    os.environ["MAVEN_REPO_DIR"] = f"{d.getVar("DL_DIR")}/maven-repo"
     cmd = [
-        mvn,
+        f"{staging_dir_native}/usr/lib/maven/bin/mvn",
         "org.apache.maven.plugins:maven-dependency-plugin:3.11.0:go-offline",
         f"-Dmaven.repo.local={temp_m2}",
-        "-f", s_dir
+        "-f",
+        d.getVar("S"),
     ]
+    if log_level <= 10:
+        cmd.append("-X")
+
     bb.note(f"Running Maven dependency resolution: {' '.join(cmd)}")
-    subprocess.check_call(cmd)
+
+    process = subprocess.Popen(
+        cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1
+    )
+
+    for line in process.stdout:
+        bb.debug(1, line)
+        if 'Downloaded from' in line:
+            url = re.findall(r"(?P<url>https?://\S+)", line)[0]
+            tmp_buf[str(uuid.uuid4())] = {
+                "file": url.rsplit("/", 1)[-1],
+                "url": url,
+            }
+    process.communicate()
 
     src_uris = []
     checksums = []
@@ -42,42 +51,64 @@ python do_update_maven_deps() {
     for root, _, files in os.walk(temp_m2):
         for file in files:
             # Maven creates several local files that don't need to be checked.
-            if file.endswith(('.repositories', '_remote.repositories', '.lastUpdated', '.sha1', '.md5')):
+            if file.endswith(
+                (
+                    ".lastUpdated",
+                    "maven-metadata-central.xml",
+                    ".md5",
+                    "_remote.repositories",
+                    ".repositories",
+                    "resolver-status.properties",
+                    ".sha1",
+                )
+            ):
                 continue
 
             full_path = os.path.join(root, file)
             rel_path = os.path.relpath(full_path, temp_m2)
-            rel_dir = os.path.dirname(rel_path)
 
-            # Generate unique BitBake parameter name
-            name_key = rel_path.replace('/', '_').replace('.', '_').replace('-', '_')
+            # Sometimes, a dependency will have a file with the same name from
+            # a different URL. Such as:
+            # https://repo1.maven.org/maven2/com/github/jeluard/oss-parent/9/oss-parent-9.pom
+            # https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+            # Because of this, it is crucial that the proper path is set.
+            file_found = False
+            file_url = "UNKNOWN"
+            for val in tmp_buf.values():
+                if rel_path in val["url"]:
+                    file_url = val["url"]
+                    file_found = True
+                    break
 
-            hasher = hashlib.sha256()
-            with open(full_path, 'rb') as f:
-                while chunk := f.read(65536):
-                    hasher.update(chunk)
-            sha256 = hasher.hexdigest()
+            if not file_found:
+                bb.warn(f"Could not find {file} in mvn output!")
+                continue
 
-            remote_url = f"{repo_url}/{rel_path}"
+            name_key = rel_path.replace("/", "_")
+
+            with open(full_path, "rb") as fd:
+                digest = hashlib.file_digest(fd, "sha256")
+            sha256 = digest.hexdigest()
 
             src_uris.append(
-                f"    {remote_url};name={name_key};downloadfilename=maven-repo/{rel_path} \\"
+                f"    {file_url};name={name_key};downloadfilename=maven-repo/{d.getVar("BP")}/{rel_path} \\"
             )
-            checksums.append(f"SRC_URI[{name_key}.sha256sum] = \"{sha256}\"")
+            checksums.append(f'SRC_URI[{name_key}.sha256sum] = "{sha256}"')
 
     with open(inc_filename, 'w') as f:
         f.write("# Auto-generated by maven_update_deps.bbclass; DO NOT EDIT\n\n")
-        f.write("SRC_URI += \"\\\n")
+        f.write('SRC_URI += "\\\n')
         f.write("\n".join(src_uris))
-        f.write("\n\"\n\n")
+        f.write('\n"\n\n')
         f.write("\n".join(checksums))
         f.write("\n")
 
     bb.plain(f"Successfully generated dependency include file: {inc_filename}")
 }
-addtask do_update_maven_deps after do_patch
-do_update_maven_deps[network] = "1"
-do_update_maven_deps[nostamp] = "1"
-do_update_maven_deps[depends] = "maven-bin-native:do_populate_sysroot openjdk-bin-native:do_populate_sysroot"
-do_update_maven_deps[doc] = "pre-download and create a deps.inc file. Much like cargo."
-RECIPE_UPGRADE_EXTRA_TASKS += "do_update_maven_deps"
+addtask do_maven_update_deps after do_patch
+# nooelint: oelint.task.network - This task only runs when directly called
+do_maven_update_deps[network] = "1"
+do_maven_update_deps[nostamp] = "1"
+do_maven_update_deps[depends] = "maven-bin-native:do_populate_sysroot openjdk-bin-native:do_populate_sysroot"
+do_maven_update_deps[doc] = "pre-download and create a deps.inc file. Much like cargo."
+RECIPE_UPGRADE_EXTRA_TASKS += "do_maven_update_deps"
