@@ -13,12 +13,12 @@ python do_maven_update_deps() {
     tmp_buf = {}
 
     temp_m2 = os.path.join(d.getVar("WORKDIR"), "temp-m2-repo")
-    inc_filename = os.path.join(d.getVar("THISDIR"), f"{d.getVar("BPN")}-deps.inc")
+    inc_filename = os.path.join(d.getVar("THISDIR"), f"{d.getVar('BPN')}-deps.inc")
 
     os.environ["JAVA_HOME"] = f"{staging_dir_native}/{libdir}/jvm"
     os.environ["M2_HOME"] = f"{staging_dir_native}/{libdir}/maven"
     os.environ["MAVEN_HOME"] = f"{staging_dir_native}/{libdir}/maven"
-    os.environ["MAVEN_REPO_DIR"] = f"{d.getVar("DL_DIR")}/maven-repo"
+    os.environ["MAVEN_REPO_DIR"] = f"{d.getVar('DL_DIR')}/maven-repo"
     cmd = [
         f"{staging_dir_native}/usr/lib/maven/bin/mvn",
         "org.apache.maven.plugins:maven-dependency-plugin:3.11.0:go-offline",
@@ -91,7 +91,7 @@ python do_maven_update_deps() {
             sha256 = digest.hexdigest()
 
             src_uris.append(
-                f"    {file_url};name={name_key};downloadfilename=maven-repo/{d.getVar("BP")}/{rel_path} \\"
+                f"    {file_url};name={name_key};downloadfilename=maven-repo/{d.getVar('BP')}/{rel_path} \\"
             )
             checksums.append(f'SRC_URI[{name_key}.sha256sum] = "{sha256}"')
 
